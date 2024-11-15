@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="./output.css" href="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Registro inicial</title>
+
+    <style>
+        .background-image {
+            background-image: url('img/fondobasefinal.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Estilos para el botón de agregar */
+        .btn-agregar {
+            background-color: #ff0000; /* Fondo rojo */
+            color: #ffffff; /* Texto blanco */
+            font-weight: bold; /* Texto en negrita */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cursor al pasar */
+            margin-right: 10px; /* Margen derecho para separar los botones */
+        }
+        
+        
+</style>
+    
+</head>
+<body>
+    
+<header>
+    <div class="background-image flex flex-col justify-center items-center text-white">
+        <h1 class="text-4xl font-bold">Organizacion para la Educacion y Proteccion Ambiental - OpEPA</h1>
+        <a href="login.php" class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-auto">Volver a la página principal</a>
+    </div>
+</header>
